@@ -86,12 +86,12 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD': 'newpassword',
         'HOST':'localhost',
-        'PORT':'3306'
+        'PORT':'3307'
     }
 }
 
 
-# Password validation
+# Password validationmysql -u root -p -P 3307 -h localhost --protocol=TCP
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
